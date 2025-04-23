@@ -1,0 +1,118 @@
+#class one 
+INTRODUCTION TO C#
+
+what is c# 
+it is a language obviously,The C# is a language avaliable inside the .NET FRAMEWORK
+
+THE KEY FEATURES OF C# IS THAT 
+it contains all the features of 
+c++,vbnet and java and with more features
+
+what can we able to do with this c# and .net framework
+-Console application
+-windows application
+-web applications
+-WEBAPI's
+-Database applications
+-mobile applications
+-game development
+
+WHAT IS .NET FRAMEWORK
+the .net is a framework which is build on with C# programming language
+this language have the above applications
+------------------------------------------------------------------------------------------
+SO WE HAVE TO UNDERSTAND WHY WE NEEDED THE .NET FRAMEWORK
+before dotnet framework we are having the COM (component object model)
+
+what is that COM
+the COM is one of the microsoft frameworks which was used to build the windows application and web application
+
+after that we got VB.net 
+VB is another programming language
+and that too have the same applications
+
+SOO WHAT WAS THE ISSUES WITH THE COM 
+disadvantages of the COM was
+-- incomplete object oriented support which means it does not support the OOPS
+-- and it is platfrom dependent
+
+------------------------------------------------------------------------------------------
+THE ANSWER FOR THESE ISSUES ARE:
+.NET FRAMEWORK
+(.) dot represents the oops orientation 
+and NET is for Network Enabled Technology(internet)
+so the full form of the .net is dot means oops and net means internet or network enabled technology
+
+
+Q) do you know what is meaning of framework?
+framework is a software ,it is a collection of many small services provided on the C# programming language
+
+WHAT DOES THE .NET FRAMEWORK ACTUALLY PROVIDE:
+TWO THINGS
+1)BCL
+2)CLR
+
+1)BCL---it stands for Base Class Libraries
+	these base classes are provided by microsoft
+	that is we cannot able to write any of the c# code without the base classes
+
+2)CLR--common language runtime
+	this common language runtime is one of the key component in the .net framework
+	that is responsible for converting the msil(MICROSOFT INTERMEDIATE CODE) into native code
+
+FOR UNDERSTANDING IT IN DETAILS
+LOOK AT THIS BELOW FLOW DIAGRAM
+
+									source code ->language Compiler ->MSIL/IL(microsoft intermediate code)->
+									CLR(common language runtime) ->Native Code-> Execute
+	
+lets look deeper into how does any C# code is compiled and executed in details inside the .net environment
+
+steps:
+1) WRITING OF CODE :
+the c# code contains all the base class components and these are written using specific microsoft rules
+	and this file is SAVED USING the extention
+	".cs" EXTENTION 
+
+2) COMPILATION OF CODE:
+	first compilation is done from the c# code to microsoft intermediate code(MSIL)
+	
+	for compiling the C# files we are using the 
+	"csc.exe" compiler(AS MENTIONED EARLIER IT IS LANGUAGE DEPENDENT COMPILER)
+	after successfully compiling it into the IL code
+	
+	THE IL CODE MUST BE RECOMPILED AGAIN:
+	this re compilation is done with the help of JIT(JUST IN TIME) compiler
+	it takes the  MSIL code as input and it will convert it into native code
+
+	WHAT IS NATIVE CODE YOU ASK?
+	native code is ntng but machine native code 
+	it is purely dependent of the host system......
+
+3) EXECUTION OF THE CODE
+	Execution is done with the help of CLR(common language runtime)
+	
+	this will take the native machine code and outstreams the result of the execution of the code
+
+	IN ORDER TO EXECUTE THE C# FILE WHICH YOU HAVE COMPILED
+	search for the file with same name as the previous file and with ".exe" extension
+
+	simply do
+	>>> MyFirst.exe
+
+
+DOUBT 
+WHAT WILL GENERATE THE .exe FILES WHEN THEY ARE COMPILED
+	so the answer for this is 
+	
+	as the csc.exe (C# language compiler) will decide what to generate on basic of the kind of application
+
+	assume that your contains main method 
+	----- representing the Console application	
+		so it generates the .exe extension files
+
+	----- there is an exception in this .dll files
+		the csc.exe compiler will generate the .dll files when the kind of the project is CLASS LIBRARY
+		(THERE WILL BE DETAILED EXPLANATION ON HOW THE .dll files are created and what are those .....)
+
+	
