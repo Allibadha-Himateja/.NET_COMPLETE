@@ -1,0 +1,49 @@
+------------
+
+the C# programming language use the basic librabries which are provided by the microsoft
+for every program which we write in c# we need the base libraries
+System dll
+
+
+so the systax of the C# looks like this
+
+namespace Mynamespace
+{
+	<accessModifier> ClassName 
+	{
+		datamember1;
+		datamember2;
+		<accessmodifier> <returntype> Memberfunction1()
+		{
+			Statements.......
+		}
+		<accessmodifier> <returntype> Memberfunction1()
+		{
+			Statements.......
+		}
+	}
+}
+
+THE HIERARCHY OF THIS IS
+NAMESPACE->CLASS->MEMBERS->BLOCKS->STATEMENTS
+
+/////THE ACTUAL SYNTAX...
+using System;
+
+namespace MyFirstProject
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Welcome to C#.NET");
+            Console.ReadKey();
+        }
+    }
+} 
+
+the terms which we have used in the basic syntax are
+1)namespace
+2)class
+3)accessmodifiers
+4)static,return type MAIN
