@@ -46,4 +46,25 @@ the terms which we have used in the basic syntax are
 1)namespace
 2)class
 3)accessmodifiers
-4)static,return type MAIN
+4)static,return type,main
+
+namespace:
+namespace is a keyword which is used to declare a scope that contains the set of related objects
+
+class:
+a class is simply a user-defined data type which contain both state and behavior.
+the state is represented using the properties 
+and behaviour is defined using the user-defined functions
+
+accessmodifier:
+access modifiers are internal part of object oriented programming 
+these are implmentation of ENCAPSULATION IN oops
+they are different types of accessmodifier we will dicuss them in detail in oops
+
+static:is a keyword in C# which represents the that whatever the variable has using the static key
+the memory for this variable is instanced only once and it is immutable 
+
+main:The Main() inside any C# code is an entry point for execution
+after compilation of the  c# file the execution of this compiled file will start from the main method itself.....
+
+
