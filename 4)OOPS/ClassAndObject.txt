@@ -57,3 +57,5 @@ WHAT ARE THE TYPES OF CLASSES:
 Abstract Class- it is a special class which implements the abstraction concept in oops
 Partial Class - it is a concept of inheritance	(it is one of the most important )
 Concrete Class- it is a fully implemented class which does noto contain any abstract methods or properties
+Sealed Class- A sealed class in C# is a class that cannot be inherited by other classes
+Static class- A Class which contain all static method (only static method amd members) that class is said to be a Static class.
