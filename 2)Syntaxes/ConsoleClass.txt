@@ -1,0 +1,53 @@
+the file contains all about the console class
+
+what is a console class
+the console class is one of the fundamental classes provided in the base class library by microsoft inside the .net framework
+this console class is specifically comes under the System namespace
+
+this console class is responsible for handling the input,output and error streams for any console applications
+
+so THE CONSOLE CLASS IS MOSTLY USED INSIDE THE CONSOLE APPLICATIONs
+
+THE CONSOLE CLASS IS ONE OF THE STATIC CLASS IN .NET
+a static class is a class which contains all members and methods as static 
+
+the members of console class are
+-title
+-background color 
+-foreground color 
+-cursor size
+and the methods are(which we mainly use in console applications are)
+-Write("")
+-WriteLine("") new line terminator
+these both are string method which will write the values into the output stream
+-Write(variable),WriteLine(variable) for variable
+
+-Read() reads a single character from the keyboard and return its ascii value...
+-ReadLine() reads a string from the keyword and returns what string has been entered when the enter key is been hit
+
+
+some of the examples of the console class application are
+
+-Console.Write("hi");
+Console class is a static class 
+-Console.WriteLine("Hello there");
+
+-Console.Read() -reads only one character
+-Console.ReadLine() -reads a string from the keyboard
+
+ STRING INTERPOLATION IN C#
+---assume that we are having 
+
+string name=Console.ReadLine();
+
+Console.WriteLine($"hii {name}")
+THIS IS CALLED STRING INTERPOLATION IN c#
+			like we can able to use the $""  for inserting the values into the string (string interpolation)
+
+
+HOW TO READ THE NUMBER OR ANY TYPE OF VALUE FORM THE KEYBOARD AND STORE THEM
+
+int number=Convert.ToInt32(Console.ReadLine());
+float temp=Convert.ToFloat(Console.ReadLine());
+similarly for any data type we can able to type them 
+WE HAVE TO TYPE CAST THEM IN ORDER TO STORE THEM INSIDE THE VARIABLES OF SUITABLE DATA TYPE...

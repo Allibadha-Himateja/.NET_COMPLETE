@@ -1,0 +1,44 @@
+///
+Arrays
+
+the array is a linear data structure which stores data of same data type.
+
+the syntax for declaring an array is
+
+type  []<arrayname> = new <datatype>[size];
+int [] arr=new int[5];
+
+this is for the declaration of an array
+
+Type of Arrays in C#:
+single dimentional 
+multi dimentional
+
+single dimentional:
+the declaration for single dimentional array is same as the declaration of the arrays inside java
+but the 
+ the [] brackers will come before the array_name 
+ like so
+ type  []<arrayname> = new <datatype>[size];
+int [] arr=new int[5];
+
+
+multi_dimentional:
+the declaration of a multi dimentional array is so different from the java
+that is 
+
+data_type [,] array_name = new data_type[no_of_rows,no_of_cols]
+example
+int [,]a=new int[3,2](rows=3 and cols=2);
+
+THIS IS THE FUNDAMENTAL KNOWLEDGE REQUIRED TO able to know about the arrays in C#
+
+there are names specified to represent particular array
+1)Jagged array
+	the jagged array are the arrays which rows and cols are not same
+2)Rectangular Array
+	the rectangular arrays have the same no of rows and cols
+
+
+
+
