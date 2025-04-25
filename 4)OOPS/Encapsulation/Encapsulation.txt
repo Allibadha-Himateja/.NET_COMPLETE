@@ -1,0 +1,30 @@
+/// this file includes all you need to know about encapsulation in C#
+
+What is Encapsulation??
+
+the encapsulation is one of the fundamental features of Object oriented programming
+----
+Encapsulation hides the internal state and functionality of an object 
+and allows only access to the public set of functions.
+
+the implementation of Encapsulation is done using the Access_Specifiers
+they are also called as the Access_modifiers
+
+what are the access_Specifiers
+An access specifier defines the scope and visibility of the class member
+
+C# supports six access_specifiers
+1)public
+2)private
+3)protected
+4)internal
+5)private protected
+6)protected internal
+
+public: The public members can be accessed by any other code in the same assembly or another assembly that references it.
+private: The private members can be accessed only by code in the same class.
+protected: The protected Members in C# are available within the same class as well as to the classes that are derived from that class.
+internal: The internal members can be accessed by any code in the same assembly but not from another assembly.
+protected internal: The protected internal members can be accessed by any code in the assembly in which it’s declared or from within a derived class in another assembly.
+private protected: The private protected members can be accessed by types derived from the class that is declared within its containing assembly.
+
