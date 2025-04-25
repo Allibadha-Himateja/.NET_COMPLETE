@@ -22,7 +22,6 @@ MANAGED OBJECTS:
 the managed objects are the objects which are allocated in the memory heap and are in the control of garbage collector
 these objects are typically the instances  of classes and structures in .net(new keyword.....)
 
-
 UNMANGED OBJECTS:
 the unmanaged objects arer the objects which are not managed by the GC...
 
