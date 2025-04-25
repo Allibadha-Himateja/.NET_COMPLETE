@@ -1,0 +1,36 @@
+/// this files includes all to discuss about the garbage collector in C#
+
+what is a garbage collector:
+as the name signifies the mechanism which is used to clean the unwanted things is called a garbage collector
+in the context of C# 
+
+when the C# application runs, lots of objects are being created 
+at some point in the ececution the application may not be using the objects which are allocated with memory
+so the functionality of the garbage collector is to handle the destruction of the objects which are not being used in the exection of the program
+
+SO GARBAGE COLLECTOR IS A FEATURE PROVIDED BY THE CLR(common language runtime) inside the .net framework 
+which will handle all the unwanted objects.
+ THE GARBAGE COLLECTOR RUNS CONOTINOUSLY IN THE BACKGROUND THREAD AND WATCHES THE UNUSED MANAGED OBJECTS AND TRY TO DESTORY THEM....
+
+NOTE:
+the garbage collector only removes unused managed objects
+it does not clean the unmanaged objects
+
+WHAT ARE MANAGED AND UNMANAGED OBJECTS FOR GARBAGE COLLECTIONS
+
+MANAGED OBJECTS:
+the managed objects are the objects which are allocated in the memory heap and are in the control of garbage collector
+these objects are typically the instances  of classes and structures in .net(new keyword.....)
+
+
+UNMANGED OBJECTS:
+the unmanaged objects arer the objects which are not managed by the GC...
+
+
+
+THE GARBAGE COLLECTOR USE THE 
+Finalize keyword automatically
+it will remove all the unused objects from the memory
+
+Dispose Method is used manually to deallocate or release the allocated resources on that object...
+
