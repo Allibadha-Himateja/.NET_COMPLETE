@@ -65,7 +65,32 @@ class MyClass
  
 
 
+ THERE IS AN ANOTHER TOPIC IN c# THAT IS ON 
+ DESTRUCTORS:
+ what are the destructors in c#
+ accoreding to the microsoft C# documentation the destructors are the finalizers of a program which 
+ involves the final clean up when a class instance is being collected by the garbage collector in C#
 
+ the defination of the C# destructors are like this
+ class Example
+ {
+	 public Example()
+	 {
+		 //initializers.....
+	 }
+	 ~Example()
+	 {
+		 //Cleanup statements 	
+	 }
+ }
+
+
+QUESTION ABOUT DESTRUCTOR...
+when is the destructor method is called 
+-at the end of the programs execution the destructor method is been called 
+
+
+ WE WILL DISCUSS ABOUT THE GARBAGE COLLECTOR IN NEXT FILE.....
 
 
 
