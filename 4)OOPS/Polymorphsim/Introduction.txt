@@ -1,0 +1,39 @@
+// this file includes all you have to know about the polymorphism in oops 
+
+
+what is polymorphism 
+the polymorphism defines the concept of Method OverLoading and Method Overridding.
+
+actually polymorphism word states the meaning of taking multiple roles or forms 
+poly-many
+morphs- forms
+
+
+BEST EXAMPLE OF POLYMORPHISM 
+take a child of age around 10
+this kid has multiple roles on based on occasion or the surroundings
+-shopping mall-Customer
+-ClassRoom -student
+-bus- passenger
+-home-son
+
+
+polymorphism is further classified into two types
+1)Compile-Time/Method-OverLoading/Early Binding
+2)Runtime/Method-Overridding/Late 
+
+EXAMPLE FOR THE METHOD OVERLOADING IS 
+this concept introduces declaration of method with same method names but with
+DIFFERENT
+1) parameters
+class MethodOverLoad
+{
+	public void Add(int a,int b)
+	{
+		Console.WriteLine($"{a+b}");
+	}
+	public void Add(float a,float b)///////
+	{
+		Console.WriteLine($"{a+b}");
+	}
+}
