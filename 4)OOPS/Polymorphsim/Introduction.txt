@@ -26,14 +26,24 @@ EXAMPLE FOR THE METHOD OVERLOADING IS
 this concept introduces declaration of method with same method names but with
 DIFFERENT
 1) parameters
+2) return types...
 class MethodOverLoad
 {
 	public void Add(int a,int b)
 	{
 		Console.WriteLine($"{a+b}");
 	}
-	public void Add(float a,float b)///////
+	public void Add(float a,float b)/////// with different parameters
 	{
 		Console.WriteLine($"{a+b}");
 	}
+	public string Add(string s,string y)///// with different return types
+	{
+		return ""+s+y;
+	}
+
+	this is a basic implementation of early binding or compile time polymorphism or the method overloading in .net
+
+
+
 }
