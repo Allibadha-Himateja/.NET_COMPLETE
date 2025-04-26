@@ -1,0 +1,99 @@
+//// this file include all you have to know about the constructor in dotnet
+
+Constructor:
+the constructor is a special kind of method inside a class 
+the functionality of the constructor is to initialize the objects
+
+THE CONSTRUCTOR OF ANY CLASS IN HANDLED:
+-by the compiler itself or by user defined constructor
+
+so for example there is a class
+
+class Test
+{
+	int a;
+}
+
+inorder to initialize an object of this class
+
+we will write inside the Main() method
+
+Test t = new Test();
+
+but we dont have any constructor inside the Test class 
+the comipler will compile the code from this
+class Test				class Test
+{						{
+	int a;		to			int a;
+}							public Test()
+							{
+								a=0;
+							}
+						}
+							
+this process is done internally by the compiler
+all the declared but not initialized objects inside the class are
+initialized internally which compilation
+
+AND THE DECLARED VARIABLES ARE ALWAYS ASSIGNED TO THE NULL 
+
+
+USER DECLARED CONSTRUCTORS IN .NET
+<access_modifiers> <class_name> ([<Parameter_list>])
+{
+	/// statements...
+}
+
+RULES F0R DECLARING A CONSTRUCTORS INSIDE A CLASS:
+- the name of the constructor and the class name must be same
+- there is no return type or return statements for a constructor
+- we can only use the access_modifiers on constructor declarations
+
+example
+class MyClass
+{
+	int a;
+	String b;
+	public	MyClass(int a,String b)
+	{
+		this.a=a;
+		this.b=b;
+
+		// THIS KEYWORD IS USED FOR DEFINE THE CURRENT INSTANCE OF THIS CLASS ( A SPECIAL KEYWORD inside .net)
+	}
+}
+ 
+
+
+ THERE IS AN ANOTHER TOPIC IN c# THAT IS ON 
+ DESTRUCTORS:
+ what are the destructors in c#
+ accoreding to the microsoft C# documentation the destructors are the finalizers of a program which 
+ involves the final clean up when a class instance is being collected by the garbage collector in C#
+
+ the defination of the C# destructors are like this
+ class Example
+ {
+	 public Example()
+	 {
+		 //initializers.....
+	 }
+	 ~Example()
+	 {
+		 //Cleanup statements 	
+	 }
+ }
+
+
+QUESTION ABOUT DESTRUCTOR...
+when is the destructor method is called 
+-at the end of the programs execution the destructor method is been called 
+
+
+ WE WILL DISCUSS ABOUT THE GARBAGE COLLECTOR IN NEXT FILE.....
+
+
+
+
+
+

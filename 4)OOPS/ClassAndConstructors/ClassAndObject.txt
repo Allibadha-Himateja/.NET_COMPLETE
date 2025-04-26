@@ -1,0 +1,61 @@
+
+the file includes all the information which discusses about the Class and object 
+and this is also the introduction file to the object oriented programming in .net framework
+
+CLASS:
+the class is simply a user-defined data type which acts as a template for an object 
+the class is used to represent the state and behavior of any kind of object
+=== state===>data members
+=== behaviour====> methods/functions
+
+OBJECT:
+the object is just an instance of a class
+so according to the layman's pov everything on the earth is an object 
+and every object has some class defining the state and behavior
+
+SO IN MY UNDERSTANDING THE OBJECT IS SIMPLY A STRUCTURE WHICH HOLDS THE INSTANCE AND THE INSTANCE IS OF CLASS TYPE
+THE INSTANCE OF THE CLASS CONTAINS BOTH THE DATA MEMBERS AND METHODS/FUNCTIONS
+
+CREATING A CLASS IN C# IS SAME AS OF THE JAVA:
+
+public class MyClass
+{
+	int num;
+	public void set(int val)
+	{
+		num=val;		
+	}
+	public int get()
+	{
+		return num;
+	}
+}
+class Program
+{
+	public static void Main()
+	{
+		MyClass mc=new MyClass();
+		// this is the initalization of a class object
+		// the declaration of MyClass mc;
+		// initialization is new MyClass();
+
+		// we can able to use the members and functions with dot(.) operators
+
+		mc.set(10);
+		Console.WriteLine(mc.get());
+	}
+}
+
+WHAT ARE THE TYPES OF CLASSES:
+-Abstract class
+-Partial class
+-Concrete class
+-Sealed class
+-Static class
+
+
+Abstract Class- it is a special class which implements the abstraction concept in oops
+Partial Class - it is a concept of inheritance	(it is one of the most important )
+Concrete Class- it is a fully implemented class which does noto contain any abstract methods or properties
+Sealed Class- A sealed class in C# is a class that cannot be inherited by other classes
+Static class- A Class which contain all static method (only static method amd members) that class is said to be a Static class.
