@@ -1,0 +1,68 @@
+/// this file includes all you need to know about the basics of the inheritance in C#
+
+inheritance is a mechanism of using the members of one class in another class
+the prime example of this concept is explained using the example of childern of getting the succesion of all the properties of parents to them directly thorugh inheritance
+
+in the context of object oriented programming the inheritance is a allowing the access to all the properties of the parent class to the children
+
+assume there as two classes which are 
+class a and class b then if these classes are related to one another specifically the parent child relationship 
+then ...
+
+for the syntax
+class A
+{
+
+}
+class B : A  <==== establishing the parent/child relationship between the class a and b
+{
+	
+}
+
+here Class A is the parent/base class of Class B
+and Class B is Child/Derived Class of Class A
+
+/////// the below is the question related to inheritance???
+
+
+class Math2024
+{
+	public int sum(int x,int y)
+	{
+		return (x+y);
+	}
+	protected int subt(int x, int y)
+	{
+		return (x-y);
+	}
+}
+class Math2025 : Math2024
+{
+	public int multi(int x,int y)
+	{
+		return (x*y);
+	}
+	public int subtract(int x,int y)
+	{
+		return subt(x-y);
+	}
+}
+class Program
+{
+	public static void Main()
+	{
+		Math2024 m2024;
+		Math2025 m2025;
+		m2024=new Math2024();
+		m2025=new Math2025();
+
+		Con.WL(m2024.sum(10,20));=====>\//////// WORKS
+		Con.WL(m2024.subt(20,10));\/ DOES NOT WORK 
+		BECAUSE THE SUBT METHOD IN THE BASE CLASS IS PROTECTED
+		IT MEANS IT CAN BE USED IN DERIVED CLASSES ONLY....
+
+		math2025.multi()\/////
+		math2025.subtract()\//////
+
+	}
+}
