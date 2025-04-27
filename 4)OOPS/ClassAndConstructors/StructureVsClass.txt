@@ -1,0 +1,43 @@
+/// this file includes all you need to know about the structures in .net
+
+STRUCTURE:
+Structure is a value type and a collection of variables of different data types under a single unit. 
+It is almost similar to a class because both are user-defined data types and both hold a bunch of different data types.
+
+Defining Structure: In C#, structure is defined using struct keyword.
+Using struct keyword one can define the structure consisting of different data types in it. 
+
+example
+
+access_specifier struct Name
+{
+	Fields
+	Parametorized constructor
+	constants
+	properties......
+
+}
+
+what is the actual difference between the Class and Structure
+
+STRUCT IS A VALUE TYPE:::
+VALUE TYPES STORES THE DATA DIRECTLY ON THE STACK.
+
+AND CLASS IS A REFERENCE TYPE:::
+WHILE REFERENCE TYPES STORE REFERENCE TO AN OBJECT CONTAINING THE DATA ON HEAP.
+
+
+Structure will store only the simple/primitive data types ; where as the class stores more complex methods and properties
+
+IN SIMPLE WORDS
+The Structure is like a data structure which will store the data
+but where as the Class will store the state and behaviour of a real world object
+
+One major difference between structs and classes is that structs are value types, while classes are reference types.
+This means that structs are copied by value when they are passed around, while classes are copied by reference.
+
+
+
+
+
+
