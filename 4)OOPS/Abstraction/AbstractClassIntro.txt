@@ -1,0 +1,31 @@
+/// this file includes everything which you need to know about the abstraction in .net framework
+
+
+The process of representing the essential features without including the background details is called Abstraction.
+In simple words, 
+we can say that it is a process of defining a class by providing the necessary details to call the object operations
+(i.e., methods) by hiding its implementation details.
+
+ in this concept of abstraction we are going to discuss about the 
+ Abstract Classes
+ Interfaces
+
+ ABSTRACT CLASS:
+ -the abstract class is a class which contain atleast one abstract method (OR)
+ PURELY VIRTUAL METHOD
+ - we cannot create the instance of the Abstract Class
+	reason why they cannot be initialized is that the abstract class can have the abstract method
+	which are the method with no implementation or incomplete statements
+	it is not suitable to initialize these abstract classes
+ - abstract class can contain concreate method (with body)
+ - to use an abstract class we need to extend the class and override all the virtual methods in the derived classes
+	otherwise the derived class will also become one abstract class
+
+
+ABSTRACT METHOD:
+	a method inside the abstract class which does not have any implmentation is called the abstract method
+
+
+IMPLEMENTING THE ABSTRACTION ARE OF TWO WAYS:
+1) via Abstract class and purely Virtual methods
+2) via interfaces
