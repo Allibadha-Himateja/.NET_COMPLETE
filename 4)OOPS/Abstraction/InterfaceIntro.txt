@@ -1,0 +1,12 @@
+//  this file include all you need to know about the interfaces in .net framework
+
+Interface:
+ -it is also like a abstract class but interface can contain ONLY ABSTRACT METHODS(purely virtual methods).
+ -cannot create the instance of interface.
+ -all methods in the interface are abstract and public by default
+ -interface supports multiple inheritace
+ -all the methods of interface must and should be implemented in the derived class
+
+ SYNTAX FOR
+ interface : interface
+ class : interface,interface
