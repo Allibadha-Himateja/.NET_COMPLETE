@@ -1,0 +1,6 @@
+// this file includes all you need to know about the generics in C#
+
+
+what is a generic:
+
+generic is a concept which allows us to design and develop classes with place holders..
