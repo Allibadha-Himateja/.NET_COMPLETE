@@ -1,0 +1,8 @@
+
+
+/// stream is nothing but a sequence of bytes
+
+// in c# the streans are used to handle data on basis of bytes
+which can be used be to Retriving the data from the files
+or writing the data into specific files;
+
