@@ -34,7 +34,7 @@ and that too have the same applications
 SOO WHAT WAS THE ISSUES WITH THE COM 
 disadvantages of the COM was
 -- incomplete object oriented support which means it does not support the OOPS
--- and it is platfrom dependent
+-- and it is platform dependent
 
 ------------------------------------------------------------------------------------------
 THE ANSWER FOR THESE ISSUES ARE:
