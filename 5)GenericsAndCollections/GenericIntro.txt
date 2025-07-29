@@ -4,3 +4,10 @@
 what is a generic:
 
 generic is a concept which allows us to design and develop classes with place holders..
+
+GENERICS helps developer to create identical Software Components which works on Specific datatypes
+
+		Identical Software Components ---> Classes as well as Primitive Types in dotnet framework
+
+
+
