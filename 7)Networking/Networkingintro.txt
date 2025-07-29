@@ -1,0 +1,41 @@
+
+NETWORKING:
+// handshake between one or more systems is called networking
+
+Server: a server is a software which takes requests and gives responces to clients
+
+they are different types of Servers:
+	OS_server: you can operate System over the network
+		win-nt
+		win-2024
+		unix
+		linux
+	Database Servers: which will serve data over the network
+		ms sql server
+		oracle
+		cb2
+		mysql
+
+	WebServers: the servers which will host your web applications 
+	IIS (Internet Information Services)
+	Tomcat
+	GlassFish
+	WebLogic
+
+Client:  is a software who is responsible for making a request to server and it receives response
+
+IP Address: the IP Address is a unique idetifier of a System inside a Network
+			the Router is responsible for creating the IP Addresses for a System
+			( Internet Protocol Address )
+Port Number: the port number for a System is a unique identifer of a Software application inside one System
+
+			there are 0 to 65535 ports for a System
+Protocols: the protocol is a piece of software which contains set of rules which helps in 
+			Transfering of data over network
+
+			TCP - Transmission Control Protocol
+			UDP - User Datagram Protocol
+			HTTP - Hypertext Transfer Protocol
+			FTP -File Transfer Protocol
+			RMI - Remote Method Invocation
+
