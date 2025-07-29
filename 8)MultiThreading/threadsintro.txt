@@ -1,0 +1,10 @@
+// 
+
+Thread : A Thread is an Execution path of a program
+		 we can use multiple thread to perform different tasks of our program
+		 at same time
+		 Current thread which is running is called  "main_thread"
+
+		 of System.Threading;
+
+
